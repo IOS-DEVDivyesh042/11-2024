@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "a-golden-coloured-app-icon-with-a-pirate-hat-and-a-iJvlX0HJTY6SJGnDI3IFXw-uqymAjh6Sf-u4-9EWDw2qg-removebg-preview.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
