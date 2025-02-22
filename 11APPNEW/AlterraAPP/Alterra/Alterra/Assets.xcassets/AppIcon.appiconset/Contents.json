@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "a-vector-logo-with-the-app-name-alterra-the-logo-c-KZlve39_RLKCG2z5rRotQg-V7KhYFKmR72ZV-kY6AIhPQ-removebg-preview.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

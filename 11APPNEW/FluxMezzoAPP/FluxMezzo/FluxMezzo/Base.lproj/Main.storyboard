@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fhc-rh-QaF">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Solar Energy Converter View Controller-->
+        <scene sceneID="Cy0-4B-Ztg">
+            <objects>
+                <viewController storyboardIdentifier="SolarEnergyConverterViewController" id="hND-v7-irm" customClass="SolarEnergyConverterViewController" customModule="FluxMezzo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vEJ-7t-8XW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JP7-Qf-Yw1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="i5J-A5-cql"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0YG-Ui-cge" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1189" y="685"/>
+        </scene>
+        <!--Kinetic Energy Converter View Controller-->
+        <scene sceneID="bvm-dh-tKg">
+            <objects>
+                <viewController storyboardIdentifier="KineticEnergyConverterViewController" id="Xff-iF-LeH" customClass="KineticEnergyConverterViewController" customModule="FluxMezzo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d3H-zt-UHl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lyZ-La-YOX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="os1-sy-b96"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uz7-MH-wHG" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1653" y="630"/>
+        </scene>
+        <!--Biomass Energy Converter View Controller-->
+        <scene sceneID="8zw-Ep-WEk">
+            <objects>
+                <viewController storyboardIdentifier="BiomassEnergyConverterViewController" id="V6e-nh-MJX" customClass="BiomassEnergyConverterViewController" customModule="FluxMezzo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kTR-cq-yai">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="pIe-sx-b9l"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="faj-Vp-UTY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vWd-a8-OgL" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5" y="685"/>
+        </scene>
+        <!--Thermal Energy Converter View Controller-->
+        <scene sceneID="sgs-wT-6Dq">
+            <objects>
+                <viewController storyboardIdentifier="ThermalEnergyConverterViewController" id="syu-iX-zC7" customClass="ThermalEnergyConverterViewController" customModule="FluxMezzo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TKc-na-7bk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lKz-aM-ewZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rgH-Uv-aff"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aP7-li-wmQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924" y="650"/>
+        </scene>
+        <!--FluxMezzo-->
+        <scene sceneID="kkG-Wh-tMn">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M5l-WD-DVc" customClass="ViewController" customModule="FluxMezzo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wwc-PC-Ztg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWd-fg-JpP">
+                                <rect key="frame" x="20" y="74" width="200" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="n9q-RT-J01"/>
+                                    <constraint firstAttribute="width" constant="200" id="sWl-aN-yHH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Kinetic" backgroundImage="button1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Xff-iF-LeH" kind="show" id="xDQ-JP-6yj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qI2-sP-if5">
+                                <rect key="frame" x="20" y="174" width="200" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Co0-Do-sgZ"/>
+                                    <constraint firstAttribute="height" constant="80" id="hjp-u5-WzU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="BioMass" backgroundImage="button1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="V6e-nh-MJX" kind="show" id="jGa-No-WgZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZ4-ib-0sv">
+                                <rect key="frame" x="20" y="274" width="200" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="dVu-HO-3kP"/>
+                                    <constraint firstAttribute="height" constant="80" id="rcO-W0-xbP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Solar" backgroundImage="button1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hND-v7-irm" kind="show" id="gvx-qL-afb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wp4-Hk-yXx">
+                                <rect key="frame" x="164" y="374" width="200" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="UOH-xl-3n7"/>
+                                    <constraint firstAttribute="width" constant="200" id="smO-Kp-dz5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Thermal" backgroundImage="button1 1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="syu-iX-zC7" kind="show" id="hDW-2Z-wCk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSq-Ep-K3A">
+                                <rect key="frame" x="164" y="474" width="200" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Q3l-W2-GLO"/>
+                                    <constraint firstAttribute="width" constant="200" id="QKm-WA-eSx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="About Us" backgroundImage="button1 1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BHF-3f-G9C" kind="show" id="p8D-3e-d7z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5f-Bj-jwV">
+                                <rect key="frame" x="20" y="574" width="200" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="4MF-GZ-AR4"/>
+                                    <constraint firstAttribute="width" constant="200" id="DU2-Xd-8JD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Rate" backgroundImage="button1 1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="ratebtn:" destination="M5l-WD-DVc" eventType="touchUpInside" id="2Bd-N0-vKI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oUP-tg-6Ja"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Y5f-Bj-jwV" firstAttribute="leading" secondItem="OZ4-ib-0sv" secondAttribute="leading" id="86y-2c-55C"/>
+                            <constraint firstItem="vWd-fg-JpP" firstAttribute="top" secondItem="Wwc-PC-Ztg" secondAttribute="topMargin" constant="10" id="BcT-yN-pEG"/>
+                            <constraint firstItem="LSq-Ep-K3A" firstAttribute="leading" secondItem="wp4-Hk-yXx" secondAttribute="leading" id="F7n-CG-xeW"/>
+                            <constraint firstItem="LSq-Ep-K3A" firstAttribute="trailing" secondItem="wp4-Hk-yXx" secondAttribute="trailing" id="Fll-og-lIu"/>
+                            <constraint firstItem="vWd-fg-JpP" firstAttribute="leading" secondItem="oUP-tg-6Ja" secondAttribute="leading" constant="20" id="GVo-LW-Dc3"/>
+                            <constraint firstItem="OZ4-ib-0sv" firstAttribute="top" secondItem="qI2-sP-if5" secondAttribute="bottom" constant="20" id="K4r-uU-Spc"/>
+                            <constraint firstItem="Y5f-Bj-jwV" firstAttribute="trailing" secondItem="OZ4-ib-0sv" secondAttribute="trailing" id="KZF-nB-8uX"/>
+                            <constraint firstItem="LSq-Ep-K3A" firstAttribute="top" secondItem="wp4-Hk-yXx" secondAttribute="bottom" constant="20" id="LQp-gp-SYv"/>
+                            <constraint firstItem="qI2-sP-if5" firstAttribute="top" secondItem="vWd-fg-JpP" secondAttribute="bottom" constant="20" id="LoE-1X-ed4"/>
+                            <constraint firstItem="qI2-sP-if5" firstAttribute="trailing" secondItem="vWd-fg-JpP" secondAttribute="trailing" id="XOI-VK-CjI"/>
+                            <constraint firstItem="Y5f-Bj-jwV" firstAttribute="top" secondItem="LSq-Ep-K3A" secondAttribute="bottom" constant="20" id="aAg-EZ-erT"/>
+                            <constraint firstItem="OZ4-ib-0sv" firstAttribute="leading" secondItem="qI2-sP-if5" secondAttribute="leading" id="pvO-DI-wOU"/>
+                            <constraint firstItem="OZ4-ib-0sv" firstAttribute="trailing" secondItem="qI2-sP-if5" secondAttribute="trailing" id="pzr-HQ-JCW"/>
+                            <constraint firstItem="wp4-Hk-yXx" firstAttribute="top" secondItem="OZ4-ib-0sv" secondAttribute="bottom" constant="20" id="ueQ-UD-8SP"/>
+                            <constraint firstAttribute="trailing" secondItem="wp4-Hk-yXx" secondAttribute="trailing" constant="50" id="xX1-RC-77k"/>
+                            <constraint firstItem="qI2-sP-if5" firstAttribute="leading" secondItem="vWd-fg-JpP" secondAttribute="leading" id="xnq-Qw-7S7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="FluxMezzo" id="a2v-xr-ZqJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IxT-RT-0ly" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1681.679389312977" y="-27.464788732394368"/>
+        </scene>
+        <!--Aboutusvc-->
+        <scene sceneID="YRI-nr-iM2">
+            <objects>
+                <viewController storyboardIdentifier="aboutusvc" id="BHF-3f-G9C" customClass="aboutusvc" customModule="FluxMezzo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ppA-Ve-jdH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dkJ-83-DUQ">
+                                <rect key="frame" x="40" y="164" width="334" height="472"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Welcome to **FluxMezzo**, your ultimate multi-conversion solution designed to simplify and enhance your everyday calculations! At FluxMezzo, we believe in empowering users with tools that make complex conversions effortless. Our app consolidates four essential conversion categories—biomass, solar, energy, and pressure—into one seamless platform, catering to various needs across diverse fields.
+
+With a user-friendly interface and advanced calculation algorithms, FluxMezzo offers precise conversions tailored for professionals, students, and enthusiasts alike. Whether you're working in environmental science, engineering, or simply trying to understand energy consumption, FluxMezzo is here to support you.
+
+Our biomass converter allows you to efficiently calculate various biomass measurements, ensuring you have the right data at your fingertips. The solar conversion feature simplifies the complexities of solar energy calculations, making it accessible for anyone interested in renewable energy. The energy converter provides accurate unit conversions for energy-related applications, while the pressure converter ensures that you can quickly and easily convert between different pressure units.
+
+We are committed to continuous improvement and user satisfaction, and we welcome your feedback. Join us on this journey towards a more informed and sustainable future. FluxMezzo is more than just an app; it’s a comprehensive toolkit designed to help you navigate the world of conversions with confidence and ease. Download FluxMezzo today and experience the power of effortless conversions!</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="N8h-3U-EqG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dkJ-83-DUQ" firstAttribute="top" secondItem="ppA-Ve-jdH" secondAttribute="topMargin" constant="100" id="WPN-z6-Yro"/>
+                            <constraint firstItem="dkJ-83-DUQ" firstAttribute="leading" secondItem="ppA-Ve-jdH" secondAttribute="leadingMargin" constant="20" id="cRJ-UB-jMW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dkJ-83-DUQ" secondAttribute="trailing" constant="20" id="dep-0k-f8H"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="dkJ-83-DUQ" secondAttribute="bottom" constant="100" id="l3c-gY-ooR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tut-4g-Twm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="drq-WH-Fv9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3107.6335877862593" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8Bj-UE-syY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Fhc-rh-QaF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7zA-1g-164">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="M5l-WD-DVc" kind="relationship" relationship="rootViewController" id="XDw-XC-w24"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kto-Oq-eb7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="754.96183206106866" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button1" width="380" height="142"/>
+        <image name="button1 1" width="380" height="142"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

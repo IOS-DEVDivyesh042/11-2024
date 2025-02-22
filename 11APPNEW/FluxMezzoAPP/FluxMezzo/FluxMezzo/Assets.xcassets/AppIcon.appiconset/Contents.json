@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "a-black-and-white-app-icon-with-a-lightning-bolt-d-OOU5qnZnS5y0i_S7Q5jKzQ-JXA3Tcc_TBq5yRV5OJ2DEQ-removebg-preview.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

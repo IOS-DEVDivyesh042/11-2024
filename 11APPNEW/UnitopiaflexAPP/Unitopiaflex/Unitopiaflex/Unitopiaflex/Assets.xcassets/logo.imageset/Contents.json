@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "a-converter-app-icon-with-the-app-name-unitopiafle-j1dkjxM1Q0aCC2w0qEUy1Q-UFZL08_QR5WPuHAhZw33Mg-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
